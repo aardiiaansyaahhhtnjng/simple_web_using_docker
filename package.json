@@ -1,0 +1,14 @@
+{
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Ardiansyah Tanjung",
+  "main": "server.js",
+  "scripts": {
+    "start": "nginx server.js",
+    "build": "yarn"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
